@@ -171,14 +171,7 @@ const Education = ({ lang }: { lang: 'ru' | 'en' }) => {
           },
           year: "2017–2020"
         },
-        {
-          degree: {
-            ru: "Компьютерные науки",
-            en: "Computer Science"
-          },
-          institution: "MIT",
-          year: "2020–2024"
-        },
+
         {
           degree: {
             ru: "Системы обработки информации и управления",
