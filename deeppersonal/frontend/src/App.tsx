@@ -4187,9 +4187,22 @@ function App() {
     // const apiUrl = process.env.REACT_APP_API_URL || ''; // Fallback to proxy in dev
     // axios.get(`${apiUrl}/api/about/`)
     axios.get(`${process.env.PUBLIC_URL}/about.json`)
-
       .then((res) => setAbout(res.data))
-      .catch((err) => console.error(err));
+      .catch((err) => {
+        console.error(err);
+        setAbout({
+          name: "Ahmed Kashima",
+          bio: "Full-Stack Developer passionate about Python, Django, React, and creating modern web & mobile applications.",
+          photo: "/media/profile.png",
+          contacts: {
+            email: "kashimaahmed@gmail.com",
+            telegram: "@kashimaahmed",
+            github: "https://github.com/ahmedkashima",
+            vk: "https://vk.com/kashimaa",
+            instagram: "https://www.instagram.com/ahmed.kashima.3o2/"
+          }
+        });
+      });
     
     const observer = new IntersectionObserver(
       (entries) => {

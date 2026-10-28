@@ -69,7 +69,7 @@ const About = ({ about, lang }: AboutProps) => {
       src={
         about.photo?.startsWith('http')
           ? about.photo
-          : `${process.env.REACT_APP_API_BASE_URL || 'http://localhost:8000'}${about.photo}`
+          : `${process.env.PUBLIC_URL || ''}${about.photo.startsWith('/') ? '' : '/'}${about.photo}`
       } 
       alt="Profile"
       className="w-64 h-64 md:w-80 md:h-80 rounded-full object-cover border-4 border-blue-400 shadow-lg"

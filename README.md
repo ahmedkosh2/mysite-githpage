@@ -1,8 +1,9 @@
 # Ahmed Kashima - Full Stack Developer Portfolio
 
-<!-- [![Live Demo](https://img.shields.io/badge/demo-live-green?style=for-the-badge)](https://ahmedkashima.github.io)
-[![GitHub License](https://img.shields.io/github/license/AhmedKashima/portfolio?style=for-the-badge)](LICENSE) -->
+[![Live Demo](https://img.shields.io/badge/demo-live-green?style=for-the-badge)](https://ahmedkosh2.github.io/mysite-githpage/)
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?style=for-the-badge&logo=github)](https://github.com/ahmedkosh2/mysite-githpage)
 
+🌐 **Live Website**: [https://ahmedkosh2.github.io/mysite-githpage/](https://ahmedkosh2.github.io/mysite-githpage/)
 
 <div align="center">
   <img src="assets/1.png" alt="Portfolio Screenshot" width="800"/>
@@ -11,7 +12,6 @@
 <div align="center">
   <img src="assets/2.png" alt="Portfolio Screenshot" width="800"/>
 </div>
-<!-- ![alt text](image.png) -->
 
 ## 🚀 Technologies Used
 
@@ -23,7 +23,7 @@
   <img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white" alt="Framer Motion"/>
 </p>
 
-### Backend
+### Backend & DevOps
 <p align="left">
   <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white" alt="Django"/>
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
@@ -33,95 +33,62 @@
 ## ✨ Features
 
 - **Modern UI/UX** with smooth animations
-- **Responsive Design** works on all devices
-- **Multi-language** support (English/Russian)
+- **Responsive Design** across mobile, tablet, and desktop
+- **Multi-language** support (English / Russian)
 - **Interactive Elements** with Framer Motion
-- **Contact Form** with email integration
-- **Project Showcase** with case studies
+- **Project Showcase** and Experience timeline
 
+---
 
-## Docker 
+## 🛠️ Local Development
+
+### 1. Install Dependencies
 ```bash
-docker compose up --build
+cd deeppersonal/frontend
+npm install
 ```
 
-## npm
+### 2. Start Development Server
 ```bash
 npm start
 ```
-## Fast Compile
-```bash 
-cd reall-niggaa/deeppersonal/
-docker compose up --build
+Or from the project root:
+```bash
+npm start
 ```
-## New window
-```bash 
-cd reall-niggaa/deeppersonal/frontend/
-npm i 
-npm start 
-```
-
-
-
-# 🚀 Deploying React (CRA or Vite) + TypeScript Frontend to GitHub Pages
-
-This guide describes how to deploy your frontend (React + TypeScript) to GitHub Pages using `gh-pages`.
 
 ---
 
-## ✅ Prerequisites
+## 🚀 Deployment to GitHub Pages
 
-- Node.js and npm installed
-- A GitHub repository, for example:  
-  `https://github.com/ahmedkashima/reall-niggaa`
-- React frontend already created inside the `/frontend` directory
+This repository is configured to deploy to GitHub Pages in two seamless ways:
 
----
+### Method 1: Automatic via GitHub Actions (Recommended)
+Every push to the `main` branch automatically triggers the `.github/workflows/deploy.yml` workflow, building the app and publishing it to GitHub Pages.
 
-## 📦 Step 1: Install `gh-pages`
-
-Navigate to your frontend directory and install `gh-pages`:
-
+### Method 2: Manual deploy using `gh-pages`
+From the project root:
 ```bash
-cd frontend
-npm install gh-pages --save-dev
+npm run deploy
 ```
-
-## 📝 Step 2: Update package.json
-Add the homepage field:
+Or from `deeppersonal/frontend`:
 ```bash
-"homepage": "https://ahmedkashima.github.io/reall-niggaa",
-```
-
-### Add deploy scripts:
-```bash
-"scripts": {
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build",
-  ...
-}
-```
-## ⚙️ Step 3: Set base path for assets
-If using Create React App (CRA):
-Edit public/index.html and add inside (head>:
-
-<(base href="%PUBLIC_URL%/" />
-
-If using Vite:
-In your vite.config.ts or vite.config.js, add:
-
-```bash
-typescript
-base: "/reall-niggaa/",
-```
-
-## 🚀 Step 4: Deploy
-From your /frontend directory, run:
-
-```bash
-npm run build
 npm run deploy
 ```
 
-<div align="center"> <a href="https://github.com/AhmedKashima"> <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/> </a> 
- <a href="mailto:kashimaahmed@email.com"> <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/> </a> </div> 
+### ⚙️ GitHub Pages Configuration
+1. Go to your repository **Settings** > **Pages**.
+2. Under **Build and deployment**:
+   - **Source**: Select **Deploy from a branch** (Branch: `gh-pages`, folder `/ (root)`) OR select **GitHub Actions**. Both are fully supported!
+3. Visit the live site at: **[https://ahmedkosh2.github.io/mysite-githpage/](https://ahmedkosh2.github.io/mysite-githpage/)**
+
+---
+
+<div align="center">
+  <a href="https://github.com/ahmedkosh2">
+    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+  </a> 
+  <a href="mailto:kashimaahmed@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+  </a>
+</div>

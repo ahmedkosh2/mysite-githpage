@@ -1,0 +1,11 @@
+{
+  "name": "mysite-githpage",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Ahmed Kashima Personal Portfolio Website",
+  "scripts": {
+    "start": "npm --prefix deeppersonal/frontend start",
+    "build": "npm --prefix deeppersonal/frontend run build",
+    "deploy": "npm --prefix deeppersonal/frontend run deploy"
+  }
+}

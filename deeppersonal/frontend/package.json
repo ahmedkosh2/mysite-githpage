@@ -2,7 +2,7 @@
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
-  "homepage": "/ahmedkashima/",
+  "homepage": "https://ahmedkosh2.github.io/mysite-githpage",
   "proxy": "http://localhost:8000",
   "dependencies": {
     "ajv": "^8.20.0",
@@ -16,7 +16,7 @@
     "web-vitals": "^3.3.2"
   },
   "scripts": {
-    "start": "react-app-rewired start --public-url /ahmedkashima/ --host 0.0.0.0",
+    "start": "react-app-rewired start --host 0.0.0.0",
     "build": "react-app-rewired build",
     "test": "react-app-rewired test",
     "eject": "react-scripts eject",
