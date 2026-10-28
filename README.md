@@ -76,12 +76,6 @@ Or from `deeppersonal/frontend`:
 npm run deploy
 ```
 
-### ⚙️ GitHub Pages Configuration
-1. Go to your repository **Settings** > **Pages**.
-2. Under **Build and deployment**:
-   - **Source**: Select **Deploy from a branch** (Branch: `gh-pages`, folder `/ (root)`) OR select **GitHub Actions**. Both are fully supported!
-3. Visit the live site at: **[https://ahmedkosh2.github.io/mysite-githpage/](https://ahmedkosh2.github.io/mysite-githpage/)**
-
 ---
 
 <div align="center">
