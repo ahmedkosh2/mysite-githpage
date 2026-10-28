@@ -1,0 +1,13 @@
+{
+  "name": "Ahmed Kashima",
+  "bio": "Full-Stack Developer passionate about Python, Django, React, and creating modern web & mobile applications.",
+  "photo": "/media/profile.png",
+  "cv_text": "2024 — Internship...\n2023 — VK Bot & more",
+  "contacts": {
+    "email": "kashimaahmed@gmail.com",
+    "telegram": "@kashimaahmed",
+    "github": "https://github.com/ahmedkashima",
+    "vk": "https://vk.com/kashimaa",
+    "instagram": "https://www.instagram.com/ahmed.kashima.3o2/"
+  }
+}
